@@ -66,6 +66,25 @@ collections:
                   {label: Legende, name: legende, widget: string}, 
                   {label: Lien_Youtube, name: lien_youtube, widget: string}
                 ]}
+              ]},
+              {label: Parrains, name: parrains, widget: object, fields: [
+                {label: Titre, name: titre, widget: string},
+                {label: Texte_Intro, name: texte_intro, widget: markdown},
+                {label: Texte_Outro, name: texte_outro, widget: markdown},
+                {label: Texte_autre_parrains, name: texte_autre_parrains, widget: markdown},
+                {label: Parrains, name: parrains, widget: list, fields: [
+                  {label: Nom, name: nom, widget: string},
+                  {label: Mettre_en_avant, name: mettre_en_avant, widget: boolean, default: false},
+                  {label: Type, name: type, widget: string, default: "Parrain officiel"},
+                  {label: Metier, name: metier, widget: string},
+                  {label: Image, name: image, widget: image}, 
+                  {label: Lien_Youtube, name: lien_youtube, widget: string}
+                ]},
+                {label: Images, name: image, widget: list, fields: [
+                  {label: Image, name: image, widget: image}, 
+                  {label: Legende, name: legende, widget: string}, 
+                  {label: Lien_Youtube, name: lien_youtube, widget: string}
+                ]}
               ]}
             ]}
      
