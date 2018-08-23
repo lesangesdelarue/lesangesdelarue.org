@@ -56,5 +56,16 @@ collections:
           - {label: Titre, name: titre, widget: string}
           - {label: Sous_titre, name: sous_titre, widget: string}
           - {label: Image_intro, name: header_image, widget: image}
-          - {label: Qui, name: section_qui, widget: object, fields: [{label: Texte_bouton, name: texte_bouton, widget: string}, {label: Parties, name: parties, widget: list, fields: [{label: Title, name: titre, widget: string}, {label: Texte, name: texte, widget: text}, {label: Images, name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Legende, name: legende, widget: string}, {label: Lien_Youtube, name: lien_youtube, widget: string}]}]}]}
+          - {label: Qui, name: section_qui, widget: object, fields: [
+              {label: Texte_bouton, name: texte_bouton, widget: string}, 
+              {label: Parties, name: parties, widget: list, fields: [
+                {label: Title, name: titre, widget: string}, 
+                {label: Texte, name: texte, widget: markdown}, 
+                {label: Images, name: images, widget: list, fields: [
+                  {label: Image, name: image, widget: image}, 
+                  {label: Legende, name: legende, widget: string}, 
+                  {label: Lien_Youtube, name: lien_youtube, widget: string}
+                ]}
+              ]}
+            ]}
      
