@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ProductPageTemplate } from '../../templates/product-page'
 
-const ProductPagePreview = ({ entry, getAsset }) => {
+const ProductPagePreview = ({ entry, getAsset, widgetFor }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -11,7 +11,7 @@ const ProductPagePreview = ({ entry, getAsset }) => {
 
   const entryPricingPlans = entry.getIn(['data', 'pricing', 'plans'])
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
-
+  console.log(entry)
   return (
     <ProductPageTemplate
       image={entry.getIn(['data', 'image'])}

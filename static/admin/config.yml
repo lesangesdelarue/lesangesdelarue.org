@@ -34,6 +34,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
@@ -48,13 +49,13 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+     
       - file: "src/pages/home/index.md"
         label: "Home"
         name: "home"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: Titre, name: titre, widget: string}
-          - {label: Sous_titre, name: sous_titre, widget: string, required: false}
           - {label: Image_intro, name: image_intro, widget: image}
           - {label: Qui, name: section_qui, widget: object, fields: [
               {label: Texte_bouton, name: texte_bouton, widget: string, required: false}, 
