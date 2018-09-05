@@ -4,7 +4,8 @@ titre: Une main tendue pour les naufragés de la vie
 image_intro: /img/image.png
 section_qui:
   parrains:
-    parrains: []
+    parrains:
+      - {}
     texte_autre_parrains: |-
       texte autre parrains
 
