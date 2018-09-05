@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import Content, { HTMLContent } from '../components/Content'
-import {Themes} from 'baroo';
 import Hero from '../components/Hero';
 import SectionQui from '../components/SectionQui';
 import colors from '../components/colors';
@@ -13,7 +12,6 @@ export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi
   console.log('section_quoi', section_quoi)
   console.log('section_comment', section_comment)
   console.log('section_participer', section_participer)
-  Themes.Base();
   const sections = [
     {
       anchor: 'section_qui',

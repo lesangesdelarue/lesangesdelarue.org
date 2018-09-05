@@ -1,7 +1,8 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { FlexboxGrid, Themes } from 'baroo';
 import colors from './colors';
+import Media from './Media';
+import Grid from './Grid';
 
 const noMargin = `
   margin: 0px;
@@ -109,7 +110,7 @@ const typo = (props) => css`
   ${props.warning && warning}
   ${props.error && error}
 
-  ${Themes.Media.sm`
+  ${Media.sm`
     ${props.hasHeader && 'padding-top: 6.5rem'}
     ${props.noMarginSm && noMargin}
     ${props.noPaddingSm && noPadding}
@@ -127,7 +128,7 @@ const typo = (props) => css`
     ${spacing('padding-left', props.paddingLeftSm)}
   `}
 
-  ${Themes.Media.md`
+  ${Media.md`
     ${props.noMarginMd && noMargin}
     ${props.noPaddingMd && noPadding}
 
@@ -144,7 +145,7 @@ const typo = (props) => css`
     ${spacing('padding-left', props.paddingLeftMd)}
   `}
   
-  ${Themes.Media.lg`
+  ${Media.lg`
     ${props.noMarginLg && noMargin}
     ${props.noPaddingLg && noPadding}
 
@@ -163,13 +164,13 @@ const typo = (props) => css`
 `;
 
 
-const Div = FlexboxGrid.extend`
+const Div = Grid.extend`
   ${typo}  
 `;
 const Display = Div.extend`
   font-size: 2rem;
   line-height: 1;
-  ${Themes.Media.sm`
+  ${Media.sm`
     font-size: 3.5rem;
     line-height: 1.12;
   `}
@@ -178,7 +179,7 @@ const Display = Div.extend`
 
 const Headline = Div.extend`
   font-size: 2rem;
-  ${Themes.Media.sm`
+  ${Media.sm`
     font-size: 2.5rem;
     line-height: 1.12;
   `}
@@ -202,7 +203,7 @@ const Label = Div.extend`
 const Body = Div.extend`
   font-size: 0.875rem;
   line-height: 1.71;
-  ${Themes.Media.sm`
+  ${Media.sm`
     font-size: 1.125rem;
     line-height: 1.78;
   `}

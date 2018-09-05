@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Themes} from 'baroo';
 import { StyleSheetManager } from 'styled-components'
 import { HomePageTemplate } from '../../templates/home-page'
 

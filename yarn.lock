@@ -1251,16 +1251,6 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-"baroo@git+https://jpagand:ae9ba81fae19b0d87275c706c7f35fcf6c11cdf3@github.com/tonsser/baroo.git":
-  version "1.0.0"
-  resolved "git+https://jpagand:ae9ba81fae19b0d87275c706c7f35fcf6c11cdf3@github.com/tonsser/baroo.git#891d141b0d48e24c545102e2e653b5a299f3a91d"
-  dependencies:
-    chart.js "^1.1.1"
-    lodash "^4.17.5"
-    react-chartjs "^1.2.0"
-    styled-components "^3.2.1"
-    styled-normalize "^4.0.0"
-
 base-64@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
