@@ -10,7 +10,7 @@ class Images extends Component {
     return (
       <Fragment>
         {images.map(image => (
-          <Div colXs={colSize}>
+          <Div colXs={colSize} marginBottom={1.5}>
             <Image src={image.image}/>
             <Caption>{image.legende}</Caption>
           </Div>

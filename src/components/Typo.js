@@ -198,6 +198,7 @@ const Subheadline = Div.extend`
 const Label = Div.extend`
   font-size: 0.875rem;
   line-height: 1.14;
+  font-weight: bold;
 `;
 
 const Body = Div.extend`
