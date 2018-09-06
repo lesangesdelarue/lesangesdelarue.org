@@ -4,8 +4,17 @@ titre: Une main tendue pour les naufragés de la vie
 image_intro: /img/image.png
 section_qui:
   parrains:
+    images:
+      - image: /img/preview-vid-jt.jpg
+        legende: legende
+      - image: /img/team-big-logo.jpg
+        legende: legende
     parrains:
-      - {}
+      - image: /img/image-3-1-.png
+        metier: Présentateur de l'émission Touche Pas à mon poste
+        mettre_en_avant: true
+        nom: Cyrl
+        type: Parrain officiel
     texte_autre_parrains: |-
       texte autre parrains
 
