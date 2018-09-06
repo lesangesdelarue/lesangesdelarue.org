@@ -5,7 +5,11 @@ image_intro: /img/image.png
 section_qui:
   parrains:
     parrains:
-      - {}
+      - image: /img/image-3-1-.png
+        metier: Présentateur de l'émission Touche Pas à mon poste
+        mettre_en_avant: true
+        nom: Cyrl
+        type: Parrain officiel
     texte_autre_parrains: |-
       texte autre parrains
 
