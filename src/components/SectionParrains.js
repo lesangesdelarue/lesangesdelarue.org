@@ -14,7 +14,7 @@ class SectionParrains extends Component {
         <Div colXs={12} colSm={6}>
           <Subheadline marginBottom={1} style={{color: color}}>{titre}</Subheadline>
           <Content>{texte_intro}</Content>
-          <Div row>
+          <Div row marginXs={[1,0]}>
             {enAvant.map(parrain => (
               <Div colXs={6}><Avatar {...parrain} color={color}/></Div>
             ))}

@@ -16,6 +16,8 @@ const Bandeau = Div.extend`
   transform: rotate(-3deg);
   top: -24px;
   display: inline-block;
+  position: relative;
+  margin-bottom: -24px;
 `;
 
 const Avatar = ({nom, type, metier, image, color}) => (
