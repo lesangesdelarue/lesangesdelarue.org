@@ -73,8 +73,42 @@ section_qui:
   texte_bouton: Qui ?
   titre: Qui sont les Anges de la Rue ?
 section_quoi:
+  parties:
+    - images:
+        - image: /img/table-repas-noel.jpg
+          legende: '   '
+          lien_youtube: '   '
+      texte: >-
+        Il y a aujourd’hui 146 000 sans abri en France. Nous souhaitons que tous
+        ceux qui souffrent dans la rue et souhaitent s’en sortir trouvent au
+        sein des Anges de la rue un toit, une famille ,et surtout de l’amour.
+        Notre communauté sera pour eux une opportunité extraordinaire de se
+        reconstruire et de trouver le bonheur d’une nouvelle vie. 
+      titre: '    '
+    - images:
+        - image: /img/preview-vid-interview-lyes.jpg
+          legende: >-
+            Robert et Valérie parlent des Anges de la Rue sur France 3 (durée:
+            5min)
+          lien_youtube: lAm_7IMTbFQ
+      texte: >
+        Fort de notre expérience nous avons fait le constat suivant un
+        sans-abris sur trois et issu de l’ASE (Aide Sociale à l’Enfance,
+        anciennement la DDASS). Leurs parcours sont « classiques » :
+
+
+        1/ Naissance dans une famille défaillante
+
+        2/ Pas toujours la chance de tomber sur une famille d’accueil
+        bienveillante
+
+        3/ À 18 ans, mis dehors sans repère affectif et financier
+
+        4/ Face à l’adversité, c’est la dégringolade vers les vices
   texte_bouton: Quoi ?
-  titre: titre quoi
+  titre: >-
+    Notre objectif : Faire en sorte qu'avant 2023, il n'y ait plus personne qui
+    subisse la rue
 section_comment:
   texte_bouton: Comment ?
   titre: titre comment
