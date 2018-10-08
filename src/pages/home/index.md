@@ -11,6 +11,7 @@ section_qui:
         legende: legende
     parrains:
       - image: /img/image-3-1-.png
+        lien_youtube: '   '
         metier: Présentateur de l'émission Touche Pas à mon poste
         mettre_en_avant: true
         nom: Cyrl
