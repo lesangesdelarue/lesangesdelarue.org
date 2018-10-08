@@ -15,19 +15,20 @@ section_qui:
         mettre_en_avant: true
         nom: Cyrl
         type: Parrain officiel
-    texte_autre_parrains: |-
-      texte autre parrains
-
-      **hello**
-    texte_intro: |-
-      text intro
-
-      **hello**
-    texte_outro: |-
-      texte outro
-
-      **hello**
-    titre: titre
+    texte_autre_parrains: 'Ils soutiennent également les Anges de la Rue :'
+    texte_intro: >-
+      Depuis 2014 et l’établissement d’une structure d’accueil à Sète (34) ayant
+      accueilli près de 450 personnes issues de la rue, les rencontres se sont
+      multipliées et des relations fortes se sont tissées avec de nombreux
+      bienfaiteurs.
+    texte_outro: >-
+      Yannick Bolloré, Benjamin Castaldi, Jean Michel Maire, Michel Leeb, Gilles
+      Verdez, Camille Combal, Jean-Luc Lemoine, Isabelle Morini-Bosc, Agathe
+      Auproux, Énora Malagré, Eric Mendes, Mokhtar, Géraldine Maillet, Patrick
+      Timsit, et bien d’autres nous soutiennent activement et participent au
+      développement de nos projets et mettent leur notoriété au service de notre
+      cause.
+    titre: Une association soutenue
   parties:
     - images:
         - image: /img/team-big-logo.jpg
