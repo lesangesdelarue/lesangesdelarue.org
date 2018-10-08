@@ -186,7 +186,7 @@ const Headline = Div.extend`
 `;
 
 const Title = Div.extend`
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1;
 `;
 
@@ -196,7 +196,7 @@ const Subheadline = Div.extend`
 `;
 
 const Label = Div.extend`
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.14;
   font-weight: bold;
 `;

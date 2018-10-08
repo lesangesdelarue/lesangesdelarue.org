@@ -1,14 +1,20 @@
 import React from 'react';
 import { Div } from './Grid';
 import { Label, Caption } from './Typo';
+const AvatarContainer = Div.extend`
+  text-align: center;
+`
 
 const Photo = Div.extend`
   > img {
     width: 132px;
+    border-radius: 50%;
   }
   position: relative;
 `
-
+const Metier = Caption.extend`
+  color: #6D6D6D;
+`
 const Bandeau = Div.extend`
   background: ${props => props.color};
   padding: 12px 24px;
@@ -21,14 +27,14 @@ const Bandeau = Div.extend`
 `;
 
 const Avatar = ({nom, type, metier, image, color}) => (
-  <Div>
+  <AvatarContainer>
     <Photo>
       <img src={image} />
       {type && <Bandeau color={color}>{type}</Bandeau>}
     </Photo>
     <Label>{nom}</Label>
-    <Caption>{metier}</Caption>
-  </Div>
+    <Metier>{metier}</Metier>
+  </AvatarContainer>
 );
 
 export default Avatar;

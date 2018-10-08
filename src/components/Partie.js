@@ -13,7 +13,7 @@ class Partie extends Component {
           <Content>{texte}</Content>
         </Div>
         <Div colXs={12} colSm={6} row>
-          <Images images={images}/>
+          <Images images={images} color={color}/>
         </Div>
       </Div>
     );
