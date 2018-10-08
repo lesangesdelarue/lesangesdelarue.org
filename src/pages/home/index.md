@@ -105,6 +105,14 @@ section_quoi:
         3/ À 18 ans, mis dehors sans repère affectif et financier
 
         4/ Face à l’adversité, c’est la dégringolade vers les vices
+      titre: '   '
+    - texte: >-
+        Nous souhaitons non seulement aider ces personnes victimes du mauvais
+        encadrement de leur enfance, avec toutes les difficultés que cela
+        représente, mais aussi prévenir en travaillant avec l’état , afin que
+        les enfants placés ne deviennent pas les sans-abri ou les délinquants de
+        demain .
+      titre: Prévenir plutôt que Guérir
   texte_bouton: Quoi ?
   titre: >-
     Notre objectif : Faire en sorte qu'avant 2023, il n'y ait plus personne qui
