@@ -3,7 +3,7 @@ templateKey: home-page
 titre: >-
   <span style="color: #F77336">Une main tendue</span> <span style="color:
   #785391">pour les naufragés de la vie</span>
-image_intro: /img/image.png
+image_intro: /img/plage.jpg
 section_qui:
   parrains:
     images:
