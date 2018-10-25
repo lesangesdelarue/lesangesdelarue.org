@@ -7,6 +7,7 @@ import SectionQuoi from '../components/SectionQuoi';
 import SectionComment from '../components/SectionComment';
 import colors from '../components/colors';
 import SectionParticiper from '../components/SectionParticiper';
+import Header from '../components/Header';
 
 export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi, section_comment, section_participer }) => {
 
@@ -30,6 +31,7 @@ export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi
   ]
   return (
     <Fragment>
+      <Header />
       <Hero image={image_intro} titre={titre} sections={sections}/>
       <SectionQui color={colors.green} {...section_qui} />
       <SectionQuoi color={colors.blue} {...section_quoi} negative />

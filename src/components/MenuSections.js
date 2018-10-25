@@ -6,6 +6,7 @@ const Section = Div.withComponent('a').extend`
   text-decoration: none;
   color: ${colors.white};
   font-size: 1.125rem;
+  border-radius: 4px;
   &:nth-of-type(1) {
     background: ${colors.green}
   }
@@ -32,7 +33,7 @@ class MenuSections extends Component {
     return (
       <Div dFlexSm centerSm>
         {sections.map(section => (
-          <Section paddingSm={[1,1.5]} marginSm={[0, 0.5]} href={`#${section.anchor}`}>{section.texte_bouton}</Section>
+          <Section paddingSm={[0.5,1]} marginSm={[0, 0.5]} href={`#${section.anchor}`}>{section.texte_bouton}</Section>
         ))}
       </Div>
     );
