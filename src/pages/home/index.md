@@ -119,7 +119,8 @@ section_quoi:
     subisse la rue
 section_comment:
   parties:
-    - texte: >-
+    - image: /img/panier-solidaire.png
+      texte: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
         convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
         condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
@@ -128,7 +129,8 @@ section_comment:
       texte_lien: En savoir plus
       titre: Les paniers solidaires
       url_lien: /paniers-solidaires
-    - texte: >-
+    - image: /img/jardin-des-anges.png
+      texte: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
         convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
         condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
