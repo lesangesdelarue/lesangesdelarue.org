@@ -161,7 +161,8 @@ section_comment:
   titre: 'Entreprendre, innover et expérimenter pour les sans-abri'
 section_participer:
   parties:
-    - texte: >-
+    - image: /img/devenir-benevole.png
+      texte: >-
         Nous recherchons en permanence des personnes motivées aux compétences
         diverses :
 
@@ -173,7 +174,8 @@ section_participer:
       texte_lien: Prendre contact
       titre: Devenir bénévole
       url_lien: /contact
-    - texte: >-
+    - image: /img/don-invendus.png
+      texte: >-
         Participez au succès de nos magasins solidaires en nous donnant vos
         invendus alimentaires ou matériels !
 
@@ -181,14 +183,16 @@ section_participer:
       texte_lien: Prendre contact
       titre: Faire un don d’invendus (professionnels)
       url_lien: /contact
-    - texte: >-
+    - image: /img/don-argent.png
+      texte: >-
         Votre générosité nous fait avancer plus sereinement vers nos objectifs.
         Même un petit geste, c’est déjà beaucoup !
 
         En nous donnant, vous bénéficiez de réductions d’impôts.
       texte_lien: Ajouter html lien image paypal
       titre: Don d’argent
-    - texte: >-
+    - image: /img/don-immobilier.png
+      texte: >-
         Aidez-nous à développer les lieux de vie de notre association en nous
         donnant une habitation ou un terrain.
 
@@ -196,7 +200,8 @@ section_participer:
       texte_lien: Prendre contact
       titre: Don immobilier
       url_lien: /contact
-    - texte: >-
+    - image: /img/partger-reseau.png
+      texte: >-
         Vous pouvez parler de nos actions à vos amis ou à vos connaissances, ils
         pourront peut-être également nous aider !
       texte_lien: Ajouter html lien image facebook youtube twitter
