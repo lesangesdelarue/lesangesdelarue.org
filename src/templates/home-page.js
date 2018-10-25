@@ -6,14 +6,10 @@ import SectionQui from '../components/SectionQui';
 import SectionQuoi from '../components/SectionQuoi';
 import SectionComment from '../components/SectionComment';
 import colors from '../components/colors';
+import SectionParticiper from '../components/SectionParticiper';
 
 export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi, section_comment, section_participer }) => {
-  console.log('titre', titre)
-  console.log('image_intro', image_intro)
-  console.log('section_qui', section_qui)
-  console.log('section_quoi', section_quoi)
-  console.log('section_comment', section_comment)
-  console.log('section_participer', section_participer)
+
   const sections = [
     {
       anchor: 'section_qui',
@@ -38,6 +34,7 @@ export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi
       <SectionQui color={colors.green} {...section_qui} />
       <SectionQuoi color={colors.blue} {...section_quoi} negative />
       <SectionComment color={colors.orange} {...section_comment} />
+      <SectionParticiper color={colors.purple} {...section_participer} />
     </Fragment>
  
   )
