@@ -1,9 +1,10 @@
 import styled, { css } from 'styled-components';
 import media from './Media';
 
+const SPACING = 25;
 const colCommon = `
-padding-left: 15px;
-padding-right: 15px;
+padding-left: ${SPACING}px;
+padding-right: ${SPACING}px;
 width: 100%;
 position: relative;
 min-height: 1px;
@@ -126,8 +127,8 @@ ${(props.container || props.containerFluid) && `
 margin-right: auto;
 margin-left: auto;
 width: 100%;
-padding-right: 15px;
-padding-left: 15px;
+padding-right: ${SPACING}px;
+padding-left: ${SPACING}px;
 `}
 
 ${props.row && `
@@ -135,8 +136,8 @@ ${props.row && `
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -${SPACING}px;
+  margin-left: -${SPACING}px;
 `}
 
 ${props.row && props.reverse && `

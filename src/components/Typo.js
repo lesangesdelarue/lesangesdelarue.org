@@ -169,7 +169,10 @@ const Div = Grid.extend`
 `;
 const Display = Div.extend`
   font-size: 2rem;
+  font-family: 'Vollkorn';
   line-height: 1;
+  font-weight: 600;
+
   ${Media.sm`
     font-size: 3.5rem;
     line-height: 1.12;
@@ -179,6 +182,9 @@ const Display = Div.extend`
 
 const Headline = Div.extend`
   font-size: 2rem;
+  font-family: 'Vollkorn';
+  font-weight: 600;
+
   ${Media.sm`
     font-size: 2.5rem;
     line-height: 1.12;
@@ -187,18 +193,24 @@ const Headline = Div.extend`
 
 const Title = Div.extend`
   font-size: 2.5rem;
+  font-family: 'Vollkorn';
   line-height: 1;
+  font-weight: 600;
+
 `;
 
 const Subheadline = Div.extend`
   font-size: 1.5rem;
+  font-family: 'Vollkorn';
   line-height: 1.33;
+  font-weight: 600;
+
 `;
 
 const Label = Div.extend`
   font-size: 1rem;
   line-height: 1.14;
-  font-weight: bold;
+  font-weight: 600;
 `;
 
 const Body = Div.extend`
@@ -214,7 +226,6 @@ const ButtonText = Div.extend`
   text-transform: uppercase;
   font-size: 0.875rem;
   line-height: 1.14;
-  font-weight: bold; 
 `;
 
 const Caption = Div.extend`

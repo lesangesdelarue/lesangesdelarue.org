@@ -4,6 +4,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Hero from '../components/Hero';
 import SectionQui from '../components/SectionQui';
 import SectionQuoi from '../components/SectionQuoi';
+import SectionComment from '../components/SectionComment';
 import colors from '../components/colors';
 
 export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi, section_comment, section_participer }) => {
@@ -36,6 +37,7 @@ export const HomePageTemplate = ({ titre, image_intro, section_qui, section_quoi
       <Hero image={image_intro} titre={titre} sections={sections}/>
       <SectionQui color={colors.green} {...section_qui} />
       <SectionQuoi color={colors.blue} {...section_quoi} negative />
+      <SectionComment color={colors.orange} {...section_comment} />
     </Fragment>
  
   )

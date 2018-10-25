@@ -10,4 +10,6 @@ export default {
   red: '#F45030',
   purple: '#76508F',
   orange: '#F77336',
+  grey: '#747474',
+  greyLight: '#FBFBFB',
 };
