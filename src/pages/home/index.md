@@ -125,7 +125,26 @@ section_comment:
         condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
         justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
         suscipit tempus.
+      texte_lien: En savoir plus
       titre: Les paniers solidaires
+      url_lien: /paniers-solidaires
+    - texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      texte_lien: En savoir plus
+      titre: Le  Jardin des Anges
+      url_lien: /jardin-des-anges
+    - texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      texte_lien: Page bientôt disponible!
+      titre: '## Montpellier ## '
   texte_bouton: Comment ?
   texte_intro: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
