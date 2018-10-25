@@ -1,7 +1,9 @@
 ---
 templateKey: home-page
-titre: Une main tendue pour les naufragés de la vie
-image_intro: /img/image.png
+titre: >-
+  <span style="color: #F77336">Une main tendue</span> <span style="color:
+  #785391">pour les naufragés de la vie</span>
+image_intro: /img/plage.jpg
 section_qui:
   parrains:
     images:
@@ -118,10 +120,101 @@ section_quoi:
     Notre objectif : Faire en sorte qu'avant 2023, il n'y ait plus personne qui
     subisse la rue
 section_comment:
+  parties:
+    - image: /img/panier-solidaire.png
+      texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      texte_lien: En savoir plus
+      titre: Les paniers solidaires
+      url_lien: /paniers-solidaires
+    - image: /img/jardin-des-anges.png
+      texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      texte_lien: En savoir plus
+      titre: Le  Jardin des Anges
+      url_lien: /jardin-des-anges
+    - texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      texte_lien: Page bientôt disponible!
+      titre: '## Montpellier ## '
   texte_bouton: Comment ?
-  titre: titre comment
+  texte_intro: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+    convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+    condimentum quis. Praesent consectetur egestas aliquam. Donec mattis justo
+    arcu, eu egestas nibh vestibulum ut.
+  texte_outro: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+    convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+    condimentum quis. Praesent consectetur egestas aliquam. Donec mattis justo
+    arcu, eu egestas nibh vestibulum ut.
+  titre: 'Entreprendre, innover et expérimenter pour les sans-abri'
 section_participer:
+  parties:
+    - image: /img/devenir-benevole.png
+      texte: >-
+        Nous recherchons en permanence des personnes motivées aux compétences
+        diverses :
+
+        Manutention, Bricolage, Mécanique, Comptabilité, Transport, Logistique,
+        Communication, Rédaction, Développement web, Management, Encadrement,
+        ...
+
+        Si vous êtes partant(e), prenons contact pour en parler !
+      texte_lien: Prendre contact
+      titre: Devenir bénévole
+      url_lien: /contact
+    - image: /img/don-invendus.png
+      texte: >-
+        Participez au succès de nos magasins solidaires en nous donnant vos
+        invendus alimentaires ou matériels !
+
+        Contactez-nous pour en parler.
+      texte_lien: Prendre contact
+      titre: Faire un don d’invendus (professionnels)
+      url_lien: /contact
+    - image: /img/don-argent.png
+      texte: >-
+        Votre générosité nous fait avancer plus sereinement vers nos objectifs.
+        Même un petit geste, c’est déjà beaucoup !
+
+        En nous donnant, vous bénéficiez de réductions d’impôts.
+      texte_lien: Ajouter html lien image paypal
+      titre: Don d’argent
+    - image: /img/don-immobilier.png
+      texte: >-
+        Aidez-nous à développer les lieux de vie de notre association en nous
+        donnant une habitation ou un terrain.
+
+        Contactez-nous pour en parler.
+      texte_lien: Prendre contact
+      titre: Don immobilier
+      url_lien: /contact
+    - image: /img/partger-reseau.png
+      texte: >-
+        Vous pouvez parler de nos actions à vos amis ou à vos connaissances, ils
+        pourront peut-être également nous aider !
+      texte_lien: Ajouter html lien image facebook youtube twitter
+      titre: Partagez votre réseau
   texte_bouton: Participer
-  titre: titre participer
+  texte_intro: >-
+    Si vous partagez notre philosophie et que notre action vous intéresse, vous
+    pouvez nous soutenir en parlant de nous autour de vous,
+
+    en nous « likant » sur Facebook, Twitter ou Youtube, et si vous voulez
+    ajouter votre pierre à l'édifice, vous pouvez :
+  titre: Participez au développement de l'association !
 ---
 
