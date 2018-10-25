@@ -110,7 +110,10 @@ section_quoi:
 
         4/ Face à l’adversité, c’est la dégringolade vers les vices
       titre: '   '
-    - texte: >-
+    - images:
+        - legende: ' '
+          lien_youtube: ' '
+      texte: >-
         Nous souhaitons non seulement aider ces personnes victimes du mauvais
         encadrement de leur enfance, avec toutes les difficultés que cela
         représente, mais aussi prévenir en travaillant avec l’état , afin que
