@@ -16,7 +16,7 @@ class SectionComment extends Component {
         </Div>
         <Div row>
           {parties.map((partie) => (
-            <Card colXs={12} colMd={4} {...partie} color={color}/>
+            <Card colXs={12} colMd={4}  marginBottomXs={2} marginBottomMd={0} {...partie} color={color}/>
           ))}
         </Div>     
         <Div margin={[3, 0]} centerXs>
