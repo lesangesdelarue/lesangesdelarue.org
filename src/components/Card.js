@@ -6,16 +6,17 @@ import Content from './Content';
 const Img = Div.extend`
   background: no-repeat center center;
   background-image: url(${(props) => props.src});
+  background-size: cover;
   width: 100%;
   height: 260px;
   ${Media.sm`
     height: 370px;
   `}
   ${Media.md`
-    height: 232px;
+    height: 200px;
   `}
   ${Media.lg`
-    height: 320px;
+    height: 262px;
   `}
 `
 

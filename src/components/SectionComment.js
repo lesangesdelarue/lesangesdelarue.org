@@ -11,7 +11,7 @@ class SectionComment extends Component {
     return (
       <Div container id="section_comment" paddingTop={4} paddingBottom={4}>
         <Title marginBottom={2.5} centerXs style={{color: color}}>{titre}</Title>
-        <Div margin={[3, 0]}>
+        <Div margin={[3, 0]} centerXs>
          <Content>{texte_intro}</Content>
         </Div>
         <Div row>
@@ -19,7 +19,7 @@ class SectionComment extends Component {
             <Card colXs={12} colMd={4} {...partie} color={color}/>
           ))}
         </Div>     
-        <Div margin={[3, 0]}>
+        <Div margin={[3, 0]} centerXs>
          <Content>{texte_outro}</Content>
         </Div>
       </Div>
