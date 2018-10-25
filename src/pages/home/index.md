@@ -118,8 +118,26 @@ section_quoi:
     Notre objectif : Faire en sorte qu'avant 2023, il n'y ait plus personne qui
     subisse la rue
 section_comment:
+  parties:
+    - texte: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+        convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+        condimentum quis. Praesent consectetur egestas aliquam. Donec mattis
+        justo arcu, eu egestas nibh vestibulum ut. Ut efficitur hendrerit dui
+        suscipit tempus.
+      titre: Les paniers solidaires
   texte_bouton: Comment ?
-  titre: titre comment
+  texte_intro: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+    convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+    condimentum quis. Praesent consectetur egestas aliquam. Donec mattis justo
+    arcu, eu egestas nibh vestibulum ut.
+  texte_outro: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+    convallis velit. Phasellus fermentum tincidunt leo, eget sagittis sapien
+    condimentum quis. Praesent consectetur egestas aliquam. Donec mattis justo
+    arcu, eu egestas nibh vestibulum ut.
+  titre: 'Entreprendre, innover et expérimenter pour les sans-abri'
 section_participer:
   texte_bouton: Participer
   titre: titre participer
